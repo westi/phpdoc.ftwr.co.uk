@@ -1,0 +1,43 @@
+#main {
+	margin-top:150px;
+}
+.container {
+	width: 950px;
+	margin: 0px auto;
+	text-align:center;
+}
+
+#header {
+	padding: 10px;
+}
+
+#content {
+	text-align:center;
+}
+
+#footer {
+	padding: 10px;
+	height: 200px;
+	text-align:center;
+	font-size:x-small;
+}
+
+ul#links, ul#links li {
+	display: inline;
+}
+
+ul#links li:after {
+	content:" | ";
+}
+ul#links li.last:after {
+	content:" ";
+}
+
+ul#links a {
+	color: #444;
+	font-family: "Helvetica", "Arial", sans-serif;	
+}
+
+ul#links a:link, ul#links a:visited {
+	text-decoration:none;
+}
