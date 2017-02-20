@@ -30,7 +30,5 @@
     <transformation writer="xsl" source="templates/responsive/reports/markers.xsl" artifact="markers.html"/>
     <transformation writer="xsl" source="templates/responsive/reports/errors.xsl" artifact="errors.html"/>
     <transformation writer="xsl" source="templates/responsive/reports/deprecated.xsl" artifact="deprecated.html"/>
-    <transformation writer="xsl" source="templates/responsive/graphs/class.xsl" artifact="graph_class.html"/>
-    <transformation query="" writer="Graph" source="Class" artifact="classes.svg" />
   </transformations>
 </template>
